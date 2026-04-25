@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TransactionTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-04-25T16:08:28.661Z" hostname="DESKTOP-29MJ01C" time="0.048">
+  <properties/>
+  <testcase name="Harcoded: CreditCardPaymentStrategy.process always succeeds" classname="TransactionTests" time="0.024"/>
+  <testcase name="Empty Email address is not allowed" classname="TransactionTests" time="0.002"/>
+  <testcase name="Transaction with money amount 0 or negative is forbidden" classname="TransactionTests" time="0.002"/>
+  <testcase name="Money.euros sets given amount and currency EUR" classname="TransactionTests" time="0.0"/>
+  <testcase name="Money.pounds sets given amount and currency GBP" classname="TransactionTests" time="0.001"/>
+  <testcase name="Transaction status is TransactionStatus.Failed after payment fail" classname="TransactionTests" time="0.003"/>
+  <testcase name="Harcoded: PayPalPaymentStrategy.process always fails" classname="TransactionTests" time="0.001"/>
+  <testcase name="Transaction with the same sender and recipient is forbidden" classname="TransactionTests" time="0.002"/>
+  <testcase name="Transaction status is TransactionStatus.Completed after payment" classname="TransactionTests" time="0.002"/>
+  <testcase name="Money.dollars sets given amount and currency USD" classname="TransactionTests" time="0.001"/>
+  <testcase name="Email address with @ sign is allowed" classname="TransactionTests" time="0.0"/>
+  <testcase name="Email address without @ sign is not allowed" classname="TransactionTests" time="0.001"/>
+  <testcase name="Transaction status is initially TransactionStatus.Pending" classname="TransactionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
